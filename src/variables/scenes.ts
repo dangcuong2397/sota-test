@@ -1,0 +1,233 @@
+export const TRANSLATE_UNIT = 300;
+export const TRANSLATE_SMOOTH = 0.1;
+export const SCENES: ISceneNode[] = [
+  {
+    id: "D6",
+    background_url: "/imgs/Bell-Mountain-Frame-D6.jpg",
+    defaultPosition: 1989,
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "33%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D5",
+        defaultPosition: 865,
+      },
+      {
+        minX: "34%",
+        maxX: "66%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D7",
+        defaultPosition: 2783,
+      },
+      {
+        minX: "67%",
+        maxX: " 100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "C",
+        defaultPosition: 3241,
+      },
+    ],
+  },
+  {
+    id: "D5",
+    background_url: "/imgs/Bell-Mountain-Frame-D5.jpg",
+    defaultPosition: 558,
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "50%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D4",
+        defaultPosition: 596,
+      },
+      {
+        minX: "51%",
+        maxX: " 100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D6",
+        defaultPosition: 1850,
+      },
+    ],
+  },
+  {
+    id: "D4",
+    background_url: "/imgs/Bell-Mountain-Frame-D4.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "50%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D3",
+        defaultPosition: 607,
+      },
+      {
+        minX: "51%",
+        maxX: " 100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D5",
+        defaultPosition: 4413,
+      },
+    ],
+  },
+  {
+    id: "D3",
+    background_url: "/imgs/Bell-Mountain-Frame-D3.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "50%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D2",
+        defaultPosition: 2934,
+      },
+      {
+        minX: "51%",
+        maxX: " 100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D4",
+        defaultPosition: 3966,
+      },
+    ],
+  },
+  {
+    id: "D2",
+    background_url: "/imgs/Bell-Mountain-Frame-D2.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "50%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D3",
+        defaultPosition: 3851,
+      },
+      {
+        minX: "51%",
+        maxX: " 100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D1",
+        defaultPosition: 2873,
+      },
+    ],
+  },
+  {
+    id: "D1",
+    background_url: "/imgs/Bell-Mountain-Frame-D1.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "30%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D2",
+        defaultPosition: 628,
+      },
+      {
+        minX: "51%",
+        maxX: " 100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "",
+      },
+    ],
+  },
+  {
+    id: "D7",
+    background_url: "/imgs/Bell-Mountain-Frame-D7.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "33%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D6",
+        defaultPosition: 1962,
+      },
+    ],
+  },
+  {
+    id: "C",
+    background_url: "/imgs/Bell-Mountain-Frame-C.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "45%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "D7",
+        defaultPosition: 194,
+      },
+      {
+        minX: "46%",
+        maxX: "80%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "B",
+        defaultPosition: 70,
+      },
+      {
+        minX: "81%",
+        maxX: "100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "A",
+        defaultPosition: 1397,
+      },
+    ],
+  },
+  {
+    id: "B",
+    background_url: "/imgs/Bell-Mountain-Frame-B.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "30%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "A",
+        defaultPosition: 1397,
+      },
+      {
+        minX: "31%",
+        maxX: "100%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "C",
+        defaultPosition: 1687,
+      },
+    ],
+  },
+  {
+    id: "A",
+    background_url: "/imgs/Bell-Mountain-Frame-A.jpg",
+    hitzones: [
+      {
+        minX: "0%",
+        maxX: "40%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "C",
+        defaultPosition: 1037,
+      },
+      {
+        minX: "41%",
+        maxX: "60%",
+        minY: "0%",
+        maxY: "100%",
+        goto: "B",
+        defaultPosition: 1765,
+      },
+    ],
+  },
+];

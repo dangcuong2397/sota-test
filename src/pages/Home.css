@@ -1,0 +1,25 @@
+.scene {
+    cursor:none !important;
+    overflow: hidden;
+    position: "relative";
+}
+.scene__img {
+    cursor:  move !important;
+    display: block;
+    max-width: none;
+    max-height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.scene__direct-button {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #363638;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}

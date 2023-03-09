@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "sota_test",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
